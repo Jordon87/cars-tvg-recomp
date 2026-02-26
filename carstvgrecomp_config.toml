@@ -6,6 +6,9 @@ project_name = "carstvgrecomp"
 file_path = "assets/default.xex"
 out_directory_path = "generated"
 
+setjmp_address = 0x822da0a0
+longjmp_address = 0x822d9f80
+
 [functions]
 0x820eb5c0 = { }
 0x820ea6d8 = { }
